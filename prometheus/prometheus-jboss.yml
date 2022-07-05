@@ -1,0 +1,15 @@
+scrape_configs:
+- job_name: "spring-jboss-http2"
+  scrape_interval: 5s
+  metrics_path: "/spring_jbosseap/actuator/prometheus"
+  scheme: https
+  static_configs:
+  - targets: ["localhost:8443"]
+  tls_config:
+    insecure_skip_verify: true
+- job_name: "jbosseap"
+  scrape_interval: 5s
+  metrics_path: "/metrics"
+  scheme: http
+  static_configs:
+  - targets: ["localhost:9990"]
