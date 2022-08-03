@@ -1,0 +1,7 @@
+/home/marcelmfa/demo-grpc-interface/target/generated-sources/protobuf/java/net/devh/boot/grpc/examples/lib/HelloReplyOrBuilder.java
+/home/marcelmfa/demo-grpc-interface/target/generated-sources/protobuf/java/net/devh/boot/grpc/examples/lib/HelloRequestOrBuilder.java
+/home/marcelmfa/demo-grpc-interface/target/generated-sources/protobuf/grpc-java/net/devh/boot/grpc/examples/lib/MyServiceGrpc.java
+/home/marcelmfa/demo-grpc-interface/target/generated-sources/protobuf/java/net/devh/boot/grpc/examples/lib/HelloReply.java
+/home/marcelmfa/demo-grpc-interface/src/main/java/com/example/App.java
+/home/marcelmfa/demo-grpc-interface/target/generated-sources/protobuf/java/net/devh/boot/grpc/examples/lib/HelloWorldProto.java
+/home/marcelmfa/demo-grpc-interface/target/generated-sources/protobuf/java/net/devh/boot/grpc/examples/lib/HelloRequest.java

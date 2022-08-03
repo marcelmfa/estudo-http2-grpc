@@ -1,0 +1,7 @@
+scrape_configs:
+- job_name: "grpc"
+  scrape_interval: 5s
+  metrics_path: "/actuator/prometheus"
+  scheme: http
+  static_configs:
+  - targets: ["localhost:8080"]

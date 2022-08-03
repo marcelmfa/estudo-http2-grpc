@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package com.example.grpc;
+
+import "google/protobuf/empty.proto";
+
+option java_multiple_files = true;
+option java_package = "com.example.grpc.lib";
+option java_outer_classname = "SampleServiceProto";
+
+service SampleService {
+    
+    rpc getPeople (google.protobuf.Empty) returns (People) {
+    }
+}
+
+message People {
+ 
+    message Person {
+    
+        string firstName = 1;
+        string lastName = 2;
+        string cellPhone = 3;
+        string nickname = 4;
+        string favoriteBeer = 5;
+        string animal = 6;
+        string jobTitle = 7;
+        string company = 8;
+        string favoriteDish = 9;
+        string birthday = 10;
+        string bio = 11;
+        string university = 12;
+    }
+    
+    repeated Person ppl = 1;
+}
